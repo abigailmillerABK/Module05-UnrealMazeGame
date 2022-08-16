@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\abmiller\\onedrive - activision publishing\\documents\\unreal projects\\mazegame\\source\\mazegame\\private\\door.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\abmiller\\onedrive - activision publishing\\documents\\unreal projects\\mazegame\\intermediate\\build\\win64\\mazegameeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\abmiller\\onedrive - activision publishing\\documents\\unreal projects\\mazegame\\intermediate\\build\\win64\\unrealeditor\\development\\mazegame\\definitions.mazegame.h",
+            "c:\\users\\abmiller\\onedrive - activision publishing\\documents\\unreal projects\\mazegame\\source\\mazegame\\public\\door.h",
+            "c:\\users\\abmiller\\onedrive - activision publishing\\documents\\unreal projects\\mazegame\\intermediate\\build\\win64\\unrealeditor\\inc\\mazegame\\door.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\triggerbox.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\triggerbase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\triggerbase.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\triggerbox.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

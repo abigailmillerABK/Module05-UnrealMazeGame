@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\abmiller\\onedrive - activision publishing\\documents\\unreal projects\\mazegame\\source\\mazegame\\private\\interactabledoor.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\abmiller\\onedrive - activision publishing\\documents\\unreal projects\\mazegame\\intermediate\\build\\win64\\mazegameeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\abmiller\\onedrive - activision publishing\\documents\\unreal projects\\mazegame\\intermediate\\build\\win64\\unrealeditor\\development\\mazegame\\definitions.mazegame.h",
+            "c:\\users\\abmiller\\onedrive - activision publishing\\documents\\unreal projects\\mazegame\\source\\mazegame\\public\\interactabledoor.h",
+            "c:\\users\\abmiller\\onedrive - activision publishing\\documents\\unreal projects\\mazegame\\intermediate\\build\\win64\\unrealeditor\\inc\\mazegame\\interactabledoor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

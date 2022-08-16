@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MazeGame",
+			"Path": "C:\\Users\\abmiller\\OneDrive - Activision Publishing\\Documents\\Unreal Projects\\MazeGame\\Source\\MazeGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MazeGameEditor",
+			"Path": "C:\\Users\\abmiller\\OneDrive - Activision Publishing\\Documents\\Unreal Projects\\MazeGame\\Source\\MazeGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

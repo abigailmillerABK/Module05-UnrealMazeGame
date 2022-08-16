@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\abmiller\\onedrive - activision publishing\\documents\\unreal projects\\mazegame\\source\\mazegame\\private\\actordoor.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\abmiller\\onedrive - activision publishing\\documents\\unreal projects\\mazegame\\intermediate\\build\\win64\\mazegameeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\abmiller\\onedrive - activision publishing\\documents\\unreal projects\\mazegame\\intermediate\\build\\win64\\unrealeditor\\development\\mazegame\\definitions.mazegame.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
