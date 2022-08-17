@@ -1,21 +1,4 @@
 ﻿  Using bundled DotNet SDK
   Log file: C:\Users\abmiller\AppData\Local\UnrealBuildTool\Log.txt
-  Invalidating makefile for MazeGameEditor (working set of source files changed)
-  Parsing headers for MazeGameEditor
-    Running UnrealHeaderTool "C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\MazeGame.uproject" "C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\Intermediate\Build\Win64\MazeGameEditor\Development\MazeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\abmiller\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for MazeGameEditor in 2.1695805 seconds
-  Building MazeGameEditor...
-  Using Visual Studio 2022 14.32.31332 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  [Adaptive Build] Excluded from MazeGame unity file: Door.cpp, InteractableDoor.cpp, MazeGame.cpp, MazeGameGameModeBase.cpp
-  Determining max actions to execute in parallel (14 physical cores, 20 logical cores)
-    Executing up to 14 processes, one per physical core
-    Requested 1.5 GB free memory per action, 14.9 GB available: limiting max parallel actions to 9
-  Building 6 actions with 6 processes...
-  [1/6] Compile InteractableDoor.gen.cpp
-C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\Source\MazeGame\Public\InteractableDoor.h(23): error C2535: 'AInteractableDoor::AInteractableDoor(void)': member function already defined or declared
-  C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\Source\MazeGame\Public\InteractableDoor.h(18): note: see declaration of 'AInteractableDoor::AInteractableDoor'
-  [2/6] Compile InteractableDoor.cpp
-C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\Source\MazeGame\Public\InteractableDoor.h(23): error C2535: 'AInteractableDoor::AInteractableDoor(void)': member function already defined or declared
-  C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\Source\MazeGame\Public\InteractableDoor.h(18): note: see declaration of 'AInteractableDoor::AInteractableDoor'
-  [3/6] Compile MazeGame.init.gen.cpp
+UnrealBuildTool : error : Unable to delete hot-reload file: C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\Binaries\Win64\UnrealEditor-MazeGame-0345.dll
 C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_5.0\Engine\Build\BatchFiles\Build.bat" MazeGameEditor Win64 Development -Project="C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\MazeGame.uproject" -WaitMutex -FromMsBuild" exited with code 6.

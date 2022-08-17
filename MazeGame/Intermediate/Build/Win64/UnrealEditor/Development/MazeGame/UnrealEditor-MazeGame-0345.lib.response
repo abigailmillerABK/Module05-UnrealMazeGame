@@ -1,0 +1,19 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MazeGame-0345.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\Intermediate\Build\Win64\MazeGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\Intermediate\Build\Win64\UnrealEditor\Development\MazeGame\Axe.cpp.obj"
+"C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\Intermediate\Build\Win64\UnrealEditor\Development\MazeGame\Door.cpp.obj"
+"C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\Intermediate\Build\Win64\UnrealEditor\Development\MazeGame\MazeGame.cpp.obj"
+"C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\Intermediate\Build\Win64\UnrealEditor\Development\MazeGame\MazeGameGameModeBase.cpp.obj"
+"C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\Intermediate\Build\Win64\UnrealEditor\Development\MazeGame\Axe.gen.cpp.obj"
+"C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\Intermediate\Build\Win64\UnrealEditor\Development\MazeGame\Door.gen.cpp.obj"
+"C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\Intermediate\Build\Win64\UnrealEditor\Development\MazeGame\MazeGame.init.gen.cpp.obj"
+"C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\Intermediate\Build\Win64\UnrealEditor\Development\MazeGame\MazeGameGameModeBase.gen.cpp.obj"
+"C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\Intermediate\Build\Win64\UnrealEditor\Development\MazeGame\Default.rc2.res"
+/OUT:"C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\Intermediate\Build\Win64\UnrealEditor\Development\MazeGame\UnrealEditor-MazeGame-0345.lib"

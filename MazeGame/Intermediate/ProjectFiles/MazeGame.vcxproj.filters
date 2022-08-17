@@ -23,6 +23,15 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
     <Filter Include="Source\MazeGame">
       <UniqueIdentifier>{51C05C4E-12FE-30D2-B8CE-D354208F50E2}</UniqueIdentifier>
     </Filter>
@@ -44,19 +53,19 @@
     <Filter Include="Source\MazeGame\Private">
       <UniqueIdentifier>{2708840F-DFEA-3F81-853E-71FF50CE4C1D}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\MazeGame\Private\Door.cpp">
+    <ClCompile Include="..\..\Source\MazeGame\Private\Axe.cpp">
       <Filter>Source\MazeGame\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\MazeGame\Private\InteractableDoor.cpp">
+    <ClCompile Include="..\..\Source\MazeGame\Private\Door.cpp">
       <Filter>Source\MazeGame\Private</Filter>
     </ClCompile>
     <Filter Include="Source\MazeGame\Public">
       <UniqueIdentifier>{7EFECA6B-456F-3C23-BCFB-DEF51D890402}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Source\MazeGame\Public\Door.h">
+    <ClInclude Include="..\..\Source\MazeGame\Public\Axe.h">
       <Filter>Source\MazeGame\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\MazeGame\Public\InteractableDoor.h">
+    <ClInclude Include="..\..\Source\MazeGame\Public\Door.h">
       <Filter>Source\MazeGame\Public</Filter>
     </ClInclude>
   </ItemGroup>

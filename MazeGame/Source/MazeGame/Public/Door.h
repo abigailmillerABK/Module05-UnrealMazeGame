@@ -21,14 +21,20 @@ protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
+	const FRotator Rotate(float DeltaTime, FRotator start, FRotator finish);
+	std::string doorMode = "Closed";
+	
+
 	UPROPERTY(EditAnywhere)
 	FRotator DesiredRotation = FRotator::ZeroRotator;
 
 	FRotator StartRotation = FRotator::ZeroRotator;
-	FRotator FinalRotation = FRotator::ZeroRotator;
+	FRotator ForwardRotation = FRotator::ZeroRotator;
+	FRotator BackRotation = FRotator::ZeroRotator;
+	FRotator actualRotation = FRotator::ZeroRotator;
 
 	UPROPERTY(EditAnywhere)
-	float TimeToRotate = 1.0f;
+	float TimeToRotate = 5.0f;
 
 	float CurrentRotationTime = 0.0f;
 
