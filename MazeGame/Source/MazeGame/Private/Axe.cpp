@@ -29,6 +29,23 @@ void UAxe::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTi
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
+	APawn* PlayerPawn = GetWorld()->GetFirstPlayerController()->GetPawn();
+
+
+	if (GetWorld() && GetWorld()->GetFirstLocalPlayerFromController()) {
+		//if (PlayerPawn && GetOwner() && GetOwner()->IsOverlappingActor(PlayerPawn)) {
+			TArray<UStaticMeshComponent*> staticComponents;
+			PlayerPawn->GetComponents(staticComponents);
+			//for (auto StaticMeshComponent : staticComponents) {
+
+			//	StaticMeshComponent->SetStaticMesh(LoadObject<UStaticMesh>(NULL, TEXT("/Content/Megascans/3D_Assets/Axe/Axe"), NULL, LOAD_None, NULL));
+			//}
+			//\
+			//GetActor()
+			//GetOwner()->Destroy();
+		//}
+		
+
+	}
 }
 

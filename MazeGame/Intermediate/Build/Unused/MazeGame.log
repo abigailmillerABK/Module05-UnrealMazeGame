@@ -1,4 +1,4 @@
 ﻿  Using bundled DotNet SDK
   Log file: C:\Users\abmiller\AppData\Local\UnrealBuildTool\Log.txt
-UnrealBuildTool : error : Unable to delete hot-reload file: C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\Binaries\Win64\UnrealEditor-MazeGame-0345.dll
+UnrealBuildTool : error : Unable to delete hot-reload file: C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\Binaries\Win64\UnrealEditor-MazeGame-0340.dll
 C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_5.0\Engine\Build\BatchFiles\Build.bat" MazeGameEditor Win64 Development -Project="C:\Users\abmiller\OneDrive - Activision Publishing\Documents\Unreal Projects\MazeGame\MazeGame.uproject" -WaitMutex -FromMsBuild" exited with code 6.

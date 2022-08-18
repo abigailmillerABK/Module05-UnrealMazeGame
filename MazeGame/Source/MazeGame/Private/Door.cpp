@@ -39,25 +39,24 @@ void UDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentT
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	APawn* PlayerPawn = GetWorld()->GetFirstPlayerController()->GetPawn();
 
-	FVector boxVector = TriggerBox->GetActorForwardVector();
-	FVector playerToBox = (PlayerPawn->GetActorLocation() - TriggerBox->GetActorLocation());
-	//playerToBox.Normalize();
-	float dotProduct = boxVector.Dot(playerToBox);
-
-	////////////////////////////GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("THIS, %f"), dotProduct);
-
-
-
 	if (TriggerBox && GetWorld() && GetWorld()->GetFirstLocalPlayerFromController()) {
 		if (PlayerPawn && TriggerBox->IsOverlappingActor(PlayerPawn)) {
+
+			//FVector boxVector = TriggerBox->GetActorRightVector();
+			//FVector playerToBox = (PlayerPawn->GetActorLocation() - TriggerBox->GetActorLocation());
+			////playerToBox.Normalize();
+			//float dotProduct = boxVector.Dot(playerToBox);
+			//
+
 			if ((doorMode == "Closed" || doorMode == "Closing" || doorMode == "Opening") && CurrentRotationTime < TimeToRotate) {
 				if (doorMode != "Opening") {
 					CurrentRotationTime = 0;
 
-					/*FVector boxVector = TriggerBox->GetActorForwardVector();
+					FVector boxVector = TriggerBox->GetActorRightVector();
 					FVector playerToBox = (PlayerPawn->GetActorLocation() - TriggerBox->GetActorLocation());
 					playerToBox.Normalize();
 					float dotProduct = boxVector.Dot(playerToBox);
+					GEngine->AddOnScreenDebugMessage(-1, 0.0025f, FColor::Red, FString::Printf(TEXT("Float: %f"), dotProduct));
 
 					if (dotProduct > 0) {
 						GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("1"));
@@ -66,7 +65,7 @@ void UDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentT
 					else if (dotProduct < 0) {
 						GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("-1"));
 						actualRotation = ForwardRotation;
-					}*/
+					}
 				}
 				doorMode = "Opening";
 				GetOwner()->SetActorRotation(Rotate(DeltaTime, GetOwner()->GetActorRotation(), actualRotation));
